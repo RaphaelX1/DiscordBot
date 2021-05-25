@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DSharpPlus.CommandsNext" Version="4.0.0-rc2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Comum\Comum.csproj" />
+    <ProjectReference Include="..\DTO\DTO.csproj" />
+    <ProjectReference Include="..\Enumeradores\Enumeradores.csproj" />
+    <ProjectReference Include="..\Mensagens\Mensagens.csproj" />
+    <ProjectReference Include="..\Servicos\Servicos.csproj" />
+  </ItemGroup>
+
+</Project>
